@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Middleware;
-
+//© 2020 Copyright: Tahu Coding
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 
 class TrimStrings extends Middleware
@@ -12,7 +12,6 @@ class TrimStrings extends Middleware
      * @var array
      */
     protected $except = [
-        'current_password',
         'password',
         'password_confirmation',
     ];
